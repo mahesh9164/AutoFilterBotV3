@@ -308,7 +308,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('✰☆ 𝐌𝐎𝐑𝐄 𝐌𝐎𝐕𝐈𝐄𝐒 ☆✰', url=f'{TUTORIAL}')
                     ]
                     ]
                 
@@ -321,7 +321,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
         elif query.data.startswith("checksub"):
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒",show_alert=True)
+                await query.answer("**I Like Your Smartness, But Don't Be Oversmart 😒**",show_alert=True)
                 return
             ident, file_id = query.data.split("#")
             filedetails = await get_file_details(file_id)
@@ -339,7 +339,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('✰☆ 𝐌𝐎𝐑𝐄 𝐌𝐎𝐕𝐈𝐄𝐒 ☆✰', url=f'{TUTORIAL}')
                     ]
                     ]
                 
