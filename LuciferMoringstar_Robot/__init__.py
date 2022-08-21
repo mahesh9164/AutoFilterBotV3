@@ -24,6 +24,7 @@ HELP = """
 **/total How Many Files Added In Database**
 **/logger  Get Logs**
 **/delete Delete File From Database**
+𒊹︎︎︎  𝐌𝐎𝐑𝐄 𝐇𝐄𝐋𝐏 :  [𝐂𝐋𝐈𝐂𝐊 𝐇𝐄𝐑𝐄](https://t.me/Amazon_Prime_Video_Officiall)
 
 """
 
